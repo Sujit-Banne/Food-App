@@ -1,0 +1,144 @@
+/* Select all CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header CSS */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items> ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items > ul >li {
+    margin-right: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 40px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+/* card */
+.card {
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.card h4 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+
+.restaurant-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+/* footer */
+
+  
+/* search container */
+#search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    padding: 6px;
+    margin-top: 8px;
+    width: 500px;
+    height: 20px;
+    font-size: 17px;
+    border: 1px solid grey;
+}
+
+.search-btn{
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #f8760b;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background: #fe7200e8;
+}
+
+
+/* Shimmer UI */
+#main-shimmer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.box{
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(107, 104, 104, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 10px;
+}
